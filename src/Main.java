@@ -47,7 +47,6 @@ public class Main {
             }
             System.out.println();
         } while (choice != 0);
-
     }
 }
 
