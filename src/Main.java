@@ -22,7 +22,7 @@ public class Main {
                 } else {
                     check = true;
                 }
-            } while (check == false);
+            } while (!check);
 
             check = false;
             if (figure == 0) {
@@ -37,11 +37,11 @@ public class Main {
                     } else {
                         check = true;
                     }
-                } while (check == false);
+                } while (!check);
 
                 if (choice == 1) {
                     options.area(figure);
-                } else if (choice == 2) {
+                } else {
                     options.perimeter(figure);
                 }
             }

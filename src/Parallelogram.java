@@ -15,6 +15,6 @@ public class Parallelogram {
     }
 
     public double parallelogramPerimeter() {
-        return 2 * (a + h);
+        return 2 * (a + b);
     }
 }
